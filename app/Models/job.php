@@ -53,7 +53,9 @@ class Job
         if(! $job) 
         {
             abort(404);
-        }
+        };
+        
+        return $job;
     }
 }
 
