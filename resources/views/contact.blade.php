@@ -1,4 +1,7 @@
 <x-layout>
-    <h1>Contact Page</h1>
+    <x-slot:heading>
+        Contact Page
+    </x-slot:heading>
+
     <p>+55 (41)99999-1234</p>
 </x-layout>
