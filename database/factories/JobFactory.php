@@ -21,7 +21,6 @@ class JobFactory extends Factory
             'title'=> fake()->jobTitle(),
             'employer_id' => Employer::factory(),
             'salary'=> $this->faker->numberBetween(1200,50000),
-            'empress'=> $this->faker->company(),
             'description'=> $this->faker->realText(80,2)
         ];
     }

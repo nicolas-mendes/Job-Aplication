@@ -18,7 +18,6 @@ return new class extends Migration
             $table->foreignIdFor(\App\Models\Employer::class);
             $table->string('title');
             $table->string('salary');
-            $table->string('empress');
             $table->text('description');
             $table->timestamps();
         });
